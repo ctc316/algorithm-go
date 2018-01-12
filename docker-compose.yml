@@ -1,0 +1,11 @@
+version: '3'
+services:
+  algo_go:
+    image: algo_go
+    build: .
+    container_name: algo_go
+    entrypoint: bash
+    tty: true
+    stdin_open: true
+    volumes:
+     - .:/go/src/algo

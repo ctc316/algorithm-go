@@ -1,0 +1,17 @@
+# OSX
+.DS_Store
+
+#Git
+.git
+.gitignore
+LICENSE
+VERSION
+README.md
+
+#Docker
+docker-compose.yml
+
+#Others
+Changelog.md
+Makefile
+docs
